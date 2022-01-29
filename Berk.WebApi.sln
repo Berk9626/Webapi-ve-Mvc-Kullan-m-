@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Berk.WebApi", "Berk.WebApi\Berk.WebApi.csproj", "{AC4073B8-4763-4091-8B79-DF512E9C52EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Berk.ConsumeAPI", "Berk.ConsumeAPI\Berk.ConsumeAPI.csproj", "{88D0D029-D6F0-4075-B428-E738D4D3AA74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC4073B8-4763-4091-8B79-DF512E9C52EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4073B8-4763-4091-8B79-DF512E9C52EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4073B8-4763-4091-8B79-DF512E9C52EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4073B8-4763-4091-8B79-DF512E9C52EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D0D029-D6F0-4075-B428-E738D4D3AA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D0D029-D6F0-4075-B428-E738D4D3AA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D0D029-D6F0-4075-B428-E738D4D3AA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D0D029-D6F0-4075-B428-E738D4D3AA74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B636B19B-D4FB-4065-9EB6-3A5F59FD0958}
+	EndGlobalSection
+EndGlobal

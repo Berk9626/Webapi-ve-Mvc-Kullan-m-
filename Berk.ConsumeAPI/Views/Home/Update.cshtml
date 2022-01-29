@@ -1,0 +1,37 @@
+﻿@model Berk.ConsumeAPI.ResponseModels.ProductResponseModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h1>Ürün Güncelle</h1>
+	<form asp-action="Update" asp-controller="Home" method="post">
+
+		<label>Ürün Id: </label>
+		<input  type="hidden"  asp-for="@Model.Id" />
+
+		<label>Ürün Adı: </label>
+		<input type="text" asp-for="@Model.Name" />
+		<br />
+		<hr />
+		<label>Fiyat: </label>
+		<input asp-for="@Model.Price" />
+		<br />
+		<label>Stok: </label>
+		<input type="text" asp-for="@Model.Stock" />
+		<br />
+
+		<div>
+			<a asp-action="Index" asp-controller="Home"> Geri Dön</a>
+			<button type="submit" class="btn btn-primary">Güncelle</button>
+		</div>
+
+
+
+
+	</form>
+
+</body>
+</html>
